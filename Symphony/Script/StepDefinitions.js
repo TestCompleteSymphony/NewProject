@@ -10,34 +10,36 @@ Given("I have launched Risk Manager Application", function (){
 
 When("I created a Real Portfolio on {arg} as {arg}", function (WorldPortName,RealportName){
   Project["Variables"]["RealPortID"]=RiskManager["CreateRealPortfolio"](WorldPortName,RealportName);
+   Log["Message"]("Newly Created Real Portfolio ID is: " +Project["Variables"]["RealPortID"]);
 });
 
 Then("I verified the port number for the created Real Portfolio", function (){
- 
+  Log["Message"]("Real Portfolio  is Created Successfully ");
+  Log["Message"]("Newly Created Real Portfolio ID is: " +Project["Variables"]["RealPortID"]);
 });
-
 When("I have Launched Trade Capture application", function (){
   //Launching Trade Capture Application
   LaunchApplication["LaunchTradeCapture"]();
- 
 });
-
-Then("I created a Physical Buy Trade on Portfolio", function (){
-  //Create  a Physical Buy Trade
-  TradeCapture["CreatePhysicalTrade"](1,Project["Variables"]["RealPortID"]);
-
+When("I created a Physical Buy Trade",function(){
+//Create  a Physical Buy Trade
+  Project["Variables"]["TradeNum"]=TradeCapture["CreatePhysicalTrade"](1,Project["Variables"]["RealPortID"])
+  Log["Message"]("Newly Created physical Buy Trade Number is :"+Project["Variables"]["TradeNum"]);  
 });
 
 Then("I verified the Trade number for the saved Physical Buy Trade", function (){
-  
+  Log["Message"]("new physical trade is created successfully on Portfolio number:"+Project["Variables"]["RealPortID"]);
+  Log["Message"]("Newly Created physical Buy Trade Number is :"+Project["Variables"]["TradeNum"]);
 });
 
-Then("I created a Physcal Fomula Sale Trade", function (){
-  
+When("I created a Physcal Fomula Sale Trade", function (){
+  Project["Variables"]["TradeNum"]=TradeCapture["CreatePhysicalTrade"](2,Project["Variables"]["RealPortID"]);
+  Log["Message"]("Newly Created physical Sell Trade Number is :"+Project["Variables"]["TradeNum"]);
 });
 
 Then("I verified the Trade number for the saved Physical sale Trade", function (){
-  
+  Log["Message"]("New Physical Sell Trade is Created Successfully on Portfolio Number:"+Project["Variables"]["RealPortID"]);
+  Log["Message"]("Newly Created physical sell Trade Number is :"+Project["Variables"]["TradeNum"]);
 });
 
 When("I have launched Logistics application", function (){

@@ -31,6 +31,9 @@
 				<Variable Name="RealPortID" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True" Descr="Real Portifolio ID">
 					<DefValue StrValue="310032003100360031003300" />
 				</Variable>
+				<Variable Name="TradeNum" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True" Descr="Tradenumber">
+					<DefValue StrValue="310032003300340035003600" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>

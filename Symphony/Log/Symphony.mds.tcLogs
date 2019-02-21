@@ -20,7 +20,53 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.5868910301"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{15822A59-A6D6-4B92-A520-8446F80ED244}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestRunner\RunByTag]"/>
+				<Prp name="relpath" type="S" value="2_21_2019_2_05 PM_07_385\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.5886592361"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2338B7A5-5D66-4AD6-8DBF-9B51AECD2601}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestRunner\RunByTag]"/>
+				<Prp name="relpath" type="S" value="2_21_2019_2_07 PM_40_158\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.5907538426"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A54F2A72-8667-415C-A55C-EFD11BE3639B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestRunner\RunByTag]"/>
+				<Prp name="relpath" type="S" value="2_21_2019_2_10 PM_41_132\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.5921158449"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{116CDB3B-9FED-43DD-9CA0-883A6A502390}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestRunner\RunByTag]"/>
+				<Prp name="relpath" type="S" value="2_21_2019_2_12 PM_38_809\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.592806412"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{05B36362-E9CF-46DE-B722-EFE39F21CF1E}"/>
+				<Prp name="nameofroot" type="S" value="Successfull creation of Phycal BUY/SELL Trades and Allocations by Running PASS"/>
+				<Prp name="relpath" type="S" value="2_21_2019_2_13 PM_38_474\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>
