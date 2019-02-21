@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{08CA51A3-0F46-40BC-B03E-F34F43F602EE}">
+	<children>
+		<child name="Symphony" key="{8D44B9E6-49DA-404C-A091-8AB94AC536D1}" path="Symphony\Symphony.mds" />
+	</children>
+	<testItems key="{2B08DEC0-9CFA-4F2B-A365-21F9BBB5728D}">
+		<children>
+			<testItem key="{8D44B9E6-49DA-404C-A091-8AB94AC536D1}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{5A2C59FC-CF65-4749-B99F-352C3084C2B3}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{7AED34E8-128E-4CFC-8020-2D15E069698A}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>

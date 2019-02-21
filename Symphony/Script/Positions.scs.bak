@@ -1,0 +1,127 @@
+﻿//USEUNIT SelectionRoutines
+//USEUNIT LaunchApplication
+
+var Period = [];
+var Comm_RiskQty = [];
+var Comm_UOM = [];
+var GT_RiskQty = [];
+var GT_UOM = [];
+
+function ReadPositionData()
+{
+  var i;
+  //Getting the excel sheet control
+    
+  var ExDriver=DDT["ExcelDriver"](aqConvert["VarToStr"](Files["FileNameByName"]("TestData_xlsx")),"Position",true);
+  var ColumnCount = ExDriver["ColumnCount"];
+  Log.Message("Total number columns are "+ ColumnCount);
+	  
+  //Setting the excel sheet focus to first cell value     
+  ExDriver.First();
+  
+  while(!ExDriver.EOF())
+  {
+    for(var column=1;column<ColumnCount;column++) 
+    {
+      i=0;
+      switch(aqConvert["VarToStr"](ExDriver["ColumnName"](column)))
+      {
+        case "Period":
+          Period[i] = aqConvert.VarToStr(ExDriver["Value"](column));
+          Log["Message"]("Period: " +Period[i]);
+          break;
+        case "Commodity Risk Quantity":
+          Comm_RiskQty[i] = aqConvert.VarToStr(ExDriver["Value"](column));
+          Log["Message"]("Commodity Risk Quantity : " +Comm_RiskQty[i]);
+          break;  
+        case "Commodity UOM":
+          Comm_UOM[i] = aqConvert.VarToStr(ExDriver["Value"](column));
+          Log["Message"]("Commodity UOM: " +Comm_UOM[i]);
+          break;
+        case "Risk Quantity":
+          GT_RiskQty[i] = aqConvert.VarToStr(ExDriver["Value"](column));
+          Log["Message"]("Risk Quantity : " +GT_RiskQty[i]);
+          break;  
+        case "UOM":
+          GT_UOM[i] = aqConvert.VarToStr(ExDriver["Value"](column));
+          Log["Message"]("UOM: " +GT_UOM[i]);
+          break;
+        default:
+         break;          
+      }
+      i++;
+    }
+
+    ExDriver["Next"]()
+  }
+}
+
+function ValidatePositions()
+{
+  var result;
+  var item = [];
+  var PositionGrid = Aliases["RiskManager"]["RiskManagerForm"]["horizontalPortfolioSplitterControl"]["SplitGroupPanel2"]["inspectablePivotGrid1"]["scPivotAndLower"]["SplitGroupPanel"]["panelControlForPositionPivotGrid"]["scTabAndSelector"]["SplitterPanel"]["xtraTabControl1"]["TabPageWithUomPivot"]["pgcPositions"]
+
+  var RCount = PositionGrid["Cells"]["RowCount"]
+  var ColCount = PositionGrid["Cells"]["ColumnCount"]
+
+  for (var row = 0; row < RCount; row++)
+  {
+    for(var col = 0; col < ColCount; col++)
+    {
+      item = getPGcellInfo(PositionGrid,col,row)
+      Log["Message"](item[0] +","+item[1]+","+item[2])
+      if (item[0] == "Risk Quantity" && item[1] == Period[0])
+      {
+        if(item[2]== Comm_RiskQty[0])
+        {
+          result = true;
+        }
+        else
+        { result = false;}
+      }
+      if (item[0] == "Risk Quantity" && item[1] == null)
+      {
+        if(item[2]== Comm_RiskQty[0])
+        {
+          result = true;
+        }
+        else
+        { result = false;}
+      }
+    }
+  }
+}
+function getPGcellInfo(PositionGrid,x,y)
+{
+  var cellW;   //Width of cell
+  var cellH;    //Height of cell
+  var cellL;    //Left position of cell
+  var cellT;    //Top position of cell
+  var cellX;    //On-screen X coordinate of cell centre
+  var cellY;    //On-screen Y coordinate of cell centre
+  var colHeading;    //Column heading for specified cell
+  var rowHeading;    //Row heading for specified cell
+  var rowIndex;    //Index number of current row
+  var cellValue;    //Actual (unformatted) cell value
+  var cellDisplay;    //Display value of cell
+    
+  cellW=PositionGrid["Cells"]["GetCellInfo"](x, y)["Bounds"]["get_Width"]();
+  cellH=PositionGrid["Cells"]["GetCellInfo"](x, y)["Bounds"]["get_Height"]();
+  cellL=PositionGrid["Cells"]["GetCellInfo"](x, y)["Bounds"]["get_Left"]();
+  cellT=PositionGrid["Cells"]["GetCellInfo"](x, y)["Bounds"]["get_Top"]();
+  cellX=cellL+(cellW/2);
+  cellY=cellT+(cellH/2);
+  PositionGrid["Click"](cellX,cellY);
+  rowIndex=PositionGrid["Cells"]["GetFocusedCellInfo"]()["RowFieldIndex"];
+  colHeading=PositionGrid["Cells"]["GetFocusedCellInfo"]()["DataField"]["Caption"];
+  rowHeading=PositionGrid["Cells"]["GetFocusedCellInfo"]()["Data"]["GetRowValue"](rowIndex);
+  cellDisplay=PositionGrid["Cells"]["GetCellInfo"](x, y)["DisplayText"];
+  Log.Message(colHeading + "/" + rowHeading + ": (" + x + ", " + y + "): " + ", displayed as: " + cellDisplay);
+  var item = [];
+  item[0] = colHeading;
+  item[1] = rowHeading;
+  item[2] = aqString.Trim(cellDisplay,3);
+//  return aqString.Trim(cellDisplay,3);
+return item;
+}

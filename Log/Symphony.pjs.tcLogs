@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43516.7338316319"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2CF32F0C-4B18-43F0-8040-2AC88E92BCD3}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_20_2019_5_36 PM_43_53\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43516.7367702894"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6B808E31-A6C4-4592-A3C6-F0BC23837C12}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_20_2019_5_40 PM_56_953\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43516.7494319444"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CAC10AA9-D5E4-4578-A7BF-90FCF682ECE7}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_20_2019_5_59 PM_10_920\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.434264375"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7AB6EE3E-7E2B-4760-AC63-75B049C3B7C8}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_21_2019_10_25 AM_20_442\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.4618091088"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B797EA0B-93C2-425F-96D5-9737A880E14A}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_21_2019_11_05 AM_00_307\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.4872481944"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{24D75F85-7625-41EE-8542-1CB0B8FC08D3}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_21_2019_11_41 AM_38_244\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.4894884259"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C2140647-7319-44C1-A07F-9735B8839015}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_21_2019_11_44 AM_51_800\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.492178669"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6CE7F39A-524E-4084-B48B-DDA42A4AD7F4}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_21_2019_11_48 AM_44_237\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.5022605324"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D774201A-278F-499D-9E13-E89EBBD11B1E}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_21_2019_12_03 PM_15_311\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.5114989352"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{42C5B157-C418-4349-A16A-24C95330D456}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_21_2019_12_16 PM_33_508\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

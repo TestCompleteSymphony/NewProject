@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="251"/>
+					<Prp name="datetime" type="D" value="43517.2978295949"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object bottom" type="I" value="271"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="178"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="323"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;xtcPortfolios&quot;][&quot;PortTypeInfo&quot;][&quot;PortTags&quot;][&quot;gcPortTags&quot;][&quot;clientDataPanel&quot;][&quot;Classification&quot;][&quot;ClassificationTagValue&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5269975116"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'Active[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;xtcPortfolios&quot;][&quot;PortTypeInfo&quot;][&quot;PortTags&quot;][&quot;gcPortTags&quot;][&quot;clientDataPanel&quot;][&quot;Classification&quot;][&quot;ClassificationTagValue&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;PortfolioEditor&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortfolio&quot;)[&quot;WinFormsObject&quot;](&quot;xtcPortfolios&quot;)[&quot;WinFormsObject&quot;](&quot;xtpPortTypeInfo&quot;)[&quot;WinFormsObject&quot;](&quot;grpPortTags&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortTags&quot;)[&quot;Client&quot;](&quot;Data Panel&quot;)[&quot;Row&quot;](&quot;Row 2&quot;)[&quot;Cell&quot;](&quot;Tag Value row 1&quot;))"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 15">
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5270370718"/>
+			<Prp name="message" type="S" value="I verified the port number for the created Real Portfolio"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="95"/>
+					<Prp name="datetime" type="D" value="43517.2977889468"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object bottom" type="I" value="115"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="90"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="382"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;ShortName&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5269589468"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'AutoScenario' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;ShortName&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;PortfolioEditor&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortfolio&quot;)[&quot;WinFormsObject&quot;](&quot;teShortName&quot;))"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="28"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="272"/>
+					<Prp name="datetime" type="D" value="43517.2978325231"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object bottom" type="I" value="292"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="178"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="323"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;xtcPortfolios&quot;][&quot;PortTypeInfo&quot;][&quot;PortTags&quot;][&quot;gcPortTags&quot;][&quot;clientDataPanel&quot;][&quot;LocationOnPL&quot;][&quot;LocationOnPLTagValue&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="28"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5269997106"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'C[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;xtcPortfolios&quot;][&quot;PortTypeInfo&quot;][&quot;PortTags&quot;][&quot;gcPortTags&quot;][&quot;clientDataPanel&quot;][&quot;LocationOnPL&quot;][&quot;LocationOnPLTagValue&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;PortfolioEditor&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortfolio&quot;)[&quot;WinFormsObject&quot;](&quot;xtcPortfolios&quot;)[&quot;WinFormsObject&quot;](&quot;xtpPortTypeInfo&quot;)[&quot;WinFormsObject&quot;](&quot;grpPortTags&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortTags&quot;)[&quot;Client&quot;](&quot;Data Panel&quot;)[&quot;Row&quot;](&quot;Row 3&quot;)[&quot;Cell&quot;](&quot;Tag Value row 2&quot;))"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5268605093"/>
+			<Prp name="message" type="S" value="The value '3.3.2 Test' was found in the 'Portfolio' column at row 0."/>
+			<Prp name="remarks" type="S" value="Row number: 26.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;RiskManagerForm&quot;][&quot;horizontalPortfolioSplitterControl&quot;][&quot;SplitGroupPanel&quot;][&quot;verticalPnlSplitterControl&quot;][&quot;SplitGroupPanel&quot;][&quot;PanelControl&quot;][&quot;PanelControl&quot;][&quot;portfolioTreeList&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;RiskManagerForm&quot;)[&quot;WinFormsObject&quot;](&quot;horizontalPortfolioSplitterControl&quot;)[&quot;WinFormsObject&quot;](&quot;SplitGroupPanel&quot;, &quot;Panel1&quot;)[&quot;WinFormsObject&quot;](&quot;verticalPnlSplitterControl&quot;)[&quot;WinFormsObject&quot;](&quot;SplitGroupPanel&quot;, &quot;&quot;, 1)[&quot;WinFormsObject&quot;](&quot;PanelControl&quot;, &quot;&quot;)[&quot;WinFormsObject&quot;](&quot;PanelControl&quot;, &quot;&quot;, 1)[&quot;WinFormsObject&quot;](&quot;portfolioTreeList&quot;))"/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="14"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="owner id" type="I" value="20"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="date" type="D" value="43517.5277383218"/>
+			<Prp name="message" type="S" value="The operation cannot be completed due to an unexpected window."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Sys[&quot;Process&quot;](&quot;TradeCapture&quot;)[&quot;WPFObject&quot;](&quot;HwndSource: ribbonWindow&quot;)"/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="9"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="owner id" type="I" value="20"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="date" type="D" value="43517.5277318981"/>
+			<Prp name="message" type="S" value="Could not close the unexpected window"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="94"/>
+					<Prp name="datetime" type="D" value="43517.297793287"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object bottom" type="I" value="114"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="468"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="503"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;HistoryDays&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5269613542"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'20' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;HistoryDays&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;PortfolioEditor&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortfolio&quot;)[&quot;WinFormsObject&quot;](&quot;teHistoryDays&quot;))"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5255463657"/>
+			<Prp name="message" type="S" value="Successfull creation of Phycal BUY/SELL Trades and Allocations by Running PASS"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="293"/>
+					<Prp name="datetime" type="D" value="43517.2978343981"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object bottom" type="I" value="313"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="178"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="323"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;xtcPortfolios&quot;][&quot;PortTypeInfo&quot;][&quot;PortTags&quot;][&quot;gcPortTags&quot;][&quot;clientDataPanel&quot;][&quot;SummaryPLReport&quot;][&quot;SummaryPLReportTagValue&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5270017245"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'C[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;xtcPortfolios&quot;][&quot;PortTypeInfo&quot;][&quot;PortTags&quot;][&quot;gcPortTags&quot;][&quot;clientDataPanel&quot;][&quot;SummaryPLReport&quot;][&quot;SummaryPLReportTagValue&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;PortfolioEditor&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortfolio&quot;)[&quot;WinFormsObject&quot;](&quot;xtcPortfolios&quot;)[&quot;WinFormsObject&quot;](&quot;xtpPortTypeInfo&quot;)[&quot;WinFormsObject&quot;](&quot;grpPortTags&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortTags&quot;)[&quot;Client&quot;](&quot;Data Panel&quot;)[&quot;Row&quot;](&quot;Row 4&quot;)[&quot;Cell&quot;](&quot;Tag Value row 3&quot;))"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="149"/>
+					<Prp name="object top" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43517.2977481944"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object bottom" type="I" value="24"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="13"/>
+					<Prp name="object right" type="I" value="298"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;contextMenuStrip1&quot;][&quot;menuitemCreateNewPortfolio&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5269153588"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (149, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;contextMenuStrip1&quot;][&quot;menuitemCreateNewPortfolio&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;contextMenuStrip1&quot;)[&quot;MenuItem&quot;](&quot;Create New Portfolio&quot;))"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5268296759"/>
+			<Prp name="message" type="S" value="I created a Real Portfolio on &quot;3.3.2 Test&quot; as &quot;AutoScenario&quot;"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="118"/>
+					<Prp name="datetime" type="D" value="43517.2977956597"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object bottom" type="I" value="138"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="90"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="503"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;FullName&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5269654051"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'AutoScenario' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;FullName&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;PortfolioEditor&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortfolio&quot;)[&quot;WinFormsObject&quot;](&quot;teFullName&quot;))"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="stacktext" type="S" value="RunByTag"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="owner id" type="I" value="20"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5277264005"/>
+			<Prp name="message" type="S" value="Unexpected window: 'LoadingWindow'"/>
+			<Prp name="remarks" type="S" value="Sys[&quot;Process&quot;](&quot;TradeCapture&quot;)[&quot;WPFObject&quot;](&quot;HwndSource: LoadingWindow&quot;, &quot;LoadingWindow&quot;)"/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="stacktext" type="S" value="Successfull creation of Phycal BUY/SELL Trades and Allocations by Running PASS"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="stacktext" type="S" value="I have Launched Trade Capture application"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="stacktext" type="S" value="JScript anonymous function"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="20"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="stacktext" type="S" value="LaunchTradeCapture"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="45"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="stacktext" type="S" value="RunByTag"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="stacktext" type="S" value="Successfull creation of Phycal BUY/SELL Trades and Allocations by Running PASS"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="stacktext" type="S" value="I have Launched Trade Capture application"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="stacktext" type="S" value="JScript anonymous function"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="20"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5255465393"/>
+			<Prp name="message" type="S" value="I have launched Risk Manager Application"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="stacktext" type="S" value="LaunchTradeCapture"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="45"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="stacktext" type="S" value="RunByTag"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="14"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="471"/>
+					<Prp name="object top" type="I" value="447"/>
+					<Prp name="datetime" type="D" value="43517.2978361574"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object bottom" type="I" value="470"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="439"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="458"/>
+					<Prp name="object right" type="I" value="503"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;Save&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5270036806"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;Save&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;PortfolioEditor&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortfolio&quot;)[&quot;WinFormsObject&quot;](&quot;btnSave&quot;))"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="stacktext" type="S" value="Successfull creation of Phycal BUY/SELL Trades and Allocations by Running PASS"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 4" type="S" value="{6C830D38-A8AD-4424-A110-2124E008950E}"/>
+			<Prp name="unit 1" type="S" value="{D97D234D-8686-4757-B7F5-E7AECF7D3282}"/>
+			<Prp name="unit 2" type="S" value="{58DA41FC-4854-4556-96EC-1DC7F1DB469A}"/>
+			<Prp name="unit 3" type="S" value="{0F86E538-AEF0-4851-BD2D-6714681ED9A6}"/>
+			<Prp name="unit 0" type="S" value="Symphony\Scenarios\Feature1.feature"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value="I have Launched Trade Capture application"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack end" type="I" value="15"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="stack beginning" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="date" type="D" value="43517.5277460069"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop test item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5268291898"/>
+			<Prp name="message" type="S" value="Window not found."/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="owner id" type="I" value="20"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5270409606"/>
+			<Prp name="message" type="S" value="The application &quot;C:\tc\icts\logistics\Applications\TradeCapture\TradeCapture.exe&quot; started."/>
+			<Prp name="remarks" type="S" value="The process ID is 8312."/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="83"/>
+					<Prp name="datetime" type="D" value="43517.2978432639"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object bottom" type="I" value="471"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="12"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="298"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;RiskManagerForm&quot;][&quot;horizontalPortfolioSplitterControl&quot;][&quot;SplitGroupPanel&quot;][&quot;verticalPnlSplitterControl&quot;][&quot;SplitGroupPanel&quot;][&quot;PanelControl&quot;][&quot;PanelControl&quot;][&quot;portfolioTreeList&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5270107639"/>
+			<Prp name="message" type="S" value="The grid 0 row was expanded."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;RiskManagerForm&quot;][&quot;horizontalPortfolioSplitterControl&quot;][&quot;SplitGroupPanel&quot;][&quot;verticalPnlSplitterControl&quot;][&quot;SplitGroupPanel&quot;][&quot;PanelControl&quot;][&quot;PanelControl&quot;][&quot;portfolioTreeList&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;RiskManagerForm&quot;)[&quot;WinFormsObject&quot;](&quot;horizontalPortfolioSplitterControl&quot;)[&quot;WinFormsObject&quot;](&quot;SplitGroupPanel&quot;, &quot;Panel1&quot;)[&quot;WinFormsObject&quot;](&quot;verticalPnlSplitterControl&quot;)[&quot;WinFormsObject&quot;](&quot;SplitGroupPanel&quot;, &quot;&quot;, 1)[&quot;WinFormsObject&quot;](&quot;PanelControl&quot;, &quot;&quot;)[&quot;WinFormsObject&quot;](&quot;PanelControl&quot;, &quot;&quot;, 1)[&quot;WinFormsObject&quot;](&quot;portfolioTreeList&quot;))"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="140"/>
+					<Prp name="datetime" type="D" value="43517.2977996875"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object bottom" type="I" value="160"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="91"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="310"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;BaseCurrency&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.526977419"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'USD[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;BaseCurrency&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;PortfolioEditor&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortfolio&quot;)[&quot;WinFormsObject&quot;](&quot;lueBaseCurrency&quot;))"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="LaunchTradeCapture"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="45"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5255481597"/>
+			<Prp name="message" type="S" value="There is (are) 1 running instance(s) of &quot;C:\tc\icts\logistics\Applications\RiskManager\RiskManager.exe&quot;. New instances will not be launched."/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="230"/>
+					<Prp name="datetime" type="D" value="43517.2978234028"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object bottom" type="I" value="250"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="178"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="323"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;xtcPortfolios&quot;][&quot;PortTypeInfo&quot;][&quot;PortTags&quot;][&quot;gcPortTags&quot;][&quot;clientDataPanel&quot;][&quot;BookingCompany&quot;][&quot;BookingCmpTagValue&quot;]"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.526995"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'PEI[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;PortfolioEditor&quot;][&quot;gcPortfolio&quot;][&quot;xtcPortfolios&quot;][&quot;PortTypeInfo&quot;][&quot;PortTags&quot;][&quot;gcPortTags&quot;][&quot;clientDataPanel&quot;][&quot;BookingCompany&quot;][&quot;BookingCmpTagValue&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;PortfolioEditor&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortfolio&quot;)[&quot;WinFormsObject&quot;](&quot;xtcPortfolios&quot;)[&quot;WinFormsObject&quot;](&quot;xtpPortTypeInfo&quot;)[&quot;WinFormsObject&quot;](&quot;grpPortTags&quot;)[&quot;WinFormsObject&quot;](&quot;gcPortTags&quot;)[&quot;Client&quot;](&quot;Data Panel&quot;)[&quot;Row&quot;](&quot;Row 1&quot;)[&quot;Cell&quot;](&quot;Tag Value row 0&quot;))"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5270374537"/>
+			<Prp name="message" type="S" value="I have Launched Trade Capture application"/>
+			<Prp name="remarks" type="S" value=""/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="JScript anonymous function"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="20"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5270356481"/>
+			<Prp name="message" type="S" value="The value 'AutoScenario' was found in the 'Portfolio' column at row 4."/>
+			<Prp name="remarks" type="S" value="Row number: 17.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;RiskManager&quot;][&quot;RiskManagerForm&quot;][&quot;horizontalPortfolioSplitterControl&quot;][&quot;SplitGroupPanel&quot;][&quot;verticalPnlSplitterControl&quot;][&quot;SplitGroupPanel&quot;][&quot;PanelControl&quot;][&quot;PanelControl&quot;][&quot;portfolioTreeList&quot;][&quot;wChildView&quot;](0)&#xA;(Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;RiskManagerForm&quot;)[&quot;WinFormsObject&quot;](&quot;horizontalPortfolioSplitterControl&quot;)[&quot;WinFormsObject&quot;](&quot;SplitGroupPanel&quot;, &quot;Panel1&quot;)[&quot;WinFormsObject&quot;](&quot;verticalPnlSplitterControl&quot;)[&quot;WinFormsObject&quot;](&quot;SplitGroupPanel&quot;, &quot;&quot;, 1)[&quot;WinFormsObject&quot;](&quot;PanelControl&quot;, &quot;&quot;)[&quot;WinFormsObject&quot;](&quot;PanelControl&quot;, &quot;&quot;, 1)[&quot;WinFormsObject&quot;](&quot;portfolioTreeList&quot;)[&quot;wChildView&quot;](0))"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="158"/>
+					<Prp name="object top" type="I" value="104"/>
+					<Prp name="datetime" type="D" value="43517.2977341782"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object bottom" type="I" value="122"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object left" type="I" value="68"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="113"/>
+					<Prp name="object right" type="I" value="248"/>
+					<Prp name="object name" type="S" value="Aliases[&quot;RiskManager&quot;][&quot;RiskManagerForm&quot;][&quot;horizontalPortfolioSplitterControl&quot;][&quot;SplitGroupPanel&quot;][&quot;verticalPnlSplitterControl&quot;][&quot;SplitGroupPanel&quot;][&quot;PanelControl&quot;][&quot;PanelControl&quot;][&quot;portfolioTreeList&quot;][&quot;UIAObject&quot;](&quot;Data_Panel&quot;)[&quot;UIAObject&quot;](&quot;Node0&quot;)[&quot;UIAObject&quot;](&quot;Portfolio_row_0&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43517.5269036343"/>
+			<Prp name="message" type="S" value="The window was clicked with the right mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (90, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys[&quot;Process&quot;](&quot;RiskManager&quot;)[&quot;WinFormsObject&quot;](&quot;RiskManagerForm&quot;)[&quot;WinFormsObject&quot;](&quot;horizontalPortfolioSplitterControl&quot;)[&quot;WinFormsObject&quot;](&quot;SplitGroupPanel&quot;, &quot;Panel1&quot;)[&quot;WinFormsObject&quot;](&quot;verticalPnlSplitterControl&quot;)[&quot;WinFormsObject&quot;](&quot;SplitGroupPanel&quot;, &quot;&quot;, 1)[&quot;WinFormsObject&quot;](&quot;PanelControl&quot;, &quot;&quot;)[&quot;WinFormsObject&quot;](&quot;PanelControl&quot;, &quot;&quot;, 1)[&quot;WinFormsObject&quot;](&quot;portfolioTreeList&quot;)[&quot;UIAObject&quot;](&quot;Data_Panel&quot;)[&quot;UIAObject&quot;](&quot;Node0&quot;)[&quot;UIAObject&quot;](&quot;Portfolio_row_0&quot;)"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
