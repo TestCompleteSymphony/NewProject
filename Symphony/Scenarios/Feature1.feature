@@ -3,18 +3,18 @@
   @SmokeTest
   Scenario: Successfull creation of Phycal BUY/SELL Trades and Allocations by Running PASS 
     Given I have launched Risk Manager Application 
-    When I created a Real Portfolio on "3.3.2 Test" as "AutoScenario" 
+    When I created a Real Portfolio on "3.3.2 Test" as "AutoScenario9" 
     Then I verified the port number for the created Real Portfolio
     When I have Launched Trade Capture application
-    Then I created a Physical Buy Trade on Portfolio
-    And I verified the Trade number for the saved Physical Buy Trade 
-    Then I created a Physcal Fomula Sale Trade
-    And I verified the Trade number for the saved Physical sale Trade
+    When I created a Physical Buy Trade
+    Then I verified the Trade number for the saved Physical Buy Trade 
+    When I created a Physcal Fomula Sale Trade
+    Then I verified the Trade number for the saved Physical sale Trade
     When I have launched Logistics application 
-    Then I created the shipment 
-    And I verified the generated shipment Ids
-    Then I hvae Actualized using BL actuals and verified 
-    And I Propagate Actuals and verified the message "Actual is propagated successfully"
+    When I created the shipment
+    Then I verified the generated shipment Ids
+    When I hvae Actualized using BL actuals and verified 
+    When I Propagate Actuals and verified the message "Actual is propagated successfully"
     When I have launched Risk Manager Application
     Then I Checked the Position in Portfolio Manager for the created shipments 
     And verified the Positions with corresponding trades from the App inspector/Trade distributions 

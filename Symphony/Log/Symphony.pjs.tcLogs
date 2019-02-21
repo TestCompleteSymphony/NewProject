@@ -39,6 +39,24 @@
 				<Prp name="relpath" type="S" value="2_21_2019_12_34 PM_17_195\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.5661483912"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A66D0262-9348-46C2-9306-487B6A89BFF0}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_21_2019_1_35 PM_15_221\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.6040833565"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3CB72154-35B2-447F-A351-8B33982D295C}"/>
+				<Prp name="nameofroot" type="S" value="Symphony"/>
+				<Prp name="relpath" type="S" value="2_21_2019_2_29 PM_52_802\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
 		<Prp name="version" type="S" value="11.0"/>
