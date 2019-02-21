@@ -34,13 +34,21 @@
 					</Node>
 					<Node name="var1">
 						<Node name="value">
+<<<<<<< HEAD
 							<Prp name="strvalue" type="H" value="310032003100370031003100"/>
+=======
+							<Prp name="strvalue" type="H" value="310032003100370030003800"/>
+>>>>>>> 8ec2c716fc6509f8d3284b2cfcd44b8dcd3a2a18
 						</Node>
 						<Prp name="name" type="S" value="RealPortID"/>
 					</Node>
 					<Node name="var2">
 						<Node name="value">
+<<<<<<< HEAD
 							<Prp name="strvalue" type="H" value="31003100300031003400320031002000"/>
+=======
+							<Prp name="strvalue" type="H" value="31003100300031003400310037002000"/>
+>>>>>>> 8ec2c716fc6509f8d3284b2cfcd44b8dcd3a2a18
 						</Node>
 						<Prp name="name" type="S" value="TradeNum"/>
 					</Node>

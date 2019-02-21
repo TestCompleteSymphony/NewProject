@@ -3,13 +3,16 @@
   @SmokeTest
   Scenario: Successfull creation of Phycal BUY/SELL Trades and Allocations by Running PASS 
     Given I have launched Risk Manager Application 
+
     When I created a Real Portfolio on "3.3.2 Test" as "AutoScenario9" 
+    When I created a Real Portfolio on "3.3.2 Test" as "AutoScenario8" 
     Then I verified the port number for the created Real Portfolio
     When I have Launched Trade Capture application
     When I created a Physical Buy Trade
     Then I verified the Trade number for the saved Physical Buy Trade 
     When I created a Physcal Fomula Sale Trade
     Then I verified the Trade number for the saved Physical sale Trade
+    And I verified the Trade number for the saved Physical sale Trade
     When I have launched Logistics application 
     When I created the shipment
     Then I verified the generated shipment Ids

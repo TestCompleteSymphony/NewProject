@@ -21,7 +21,16 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+<<<<<<< HEAD
 				<Prp name="activity" type="S" value="{5645CDEB-9CA9-48D1-A907-47F5908AEFE5}"/>
+=======
+				<Prp name="activity" type="S" value="{0F86E538-AEF0-4851-BD2D-6714681ED9A6}"/>
+			</Node>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{cceeae79-a76d-4b29-8165-739787ba48ef}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+>>>>>>> 8ec2c716fc6509f8d3284b2cfcd44b8dcd3a2a18
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
@@ -38,6 +47,7 @@
 			</Node>
 			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
 				<Node name="{00000000-0000-0000-0000-000000000000}">
+<<<<<<< HEAD
 					<Node name="{0f86e538-aef0-4851-bd2d-6714681ed9a6}">
 						<Node name="0">
 							<Prp name="bottom" type="I" value="2"/>
@@ -153,6 +163,9 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+=======
+					<Node name="{0f86e538-aef0-4851-bd2d-6714681ed9a6}"/>
+>>>>>>> 8ec2c716fc6509f8d3284b2cfcd44b8dcd3a2a18
 					<Node name="{3e19f801-adc7-479b-ba2a-2e3ef9d0ab09}">
 						<Node name="0">
 							<Prp name="bottom" type="I" value="2"/>
@@ -168,6 +181,7 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+<<<<<<< HEAD
 					<Node name="{5645cdeb-9ca9-48d1-a907-47f5908aefe5}"/>
 					<Node name="{646b71b1-5bc3-4a9d-aec7-845c99657c32}">
 						<Prp name="bottom" type="I" value="25"/>
@@ -244,6 +258,11 @@
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
+=======
+					<Node name="{646b71b1-5bc3-4a9d-aec7-845c99657c32}"/>
+					<Node name="{6c830d38-a8ad-4424-a110-2124e008950e}"/>
+					<Node name="{8f781e7d-c9b3-4872-8720-9925821a8fff}"/>
+>>>>>>> 8ec2c716fc6509f8d3284b2cfcd44b8dcd3a2a18
 					<Node name="{d97d234d-8686-4757-b7f5-e7aecf7d3282}">
 						<Node name="0">
 							<Prp name="bottom" type="I" value="24"/>

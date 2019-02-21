@@ -21,7 +21,11 @@ When("I have Launched Trade Capture application", function (){
   //Launching Trade Capture Application
   LaunchApplication["LaunchTradeCapture"]();
 });
+<<<<<<< HEAD
 When("I created a Physical Buy Trade",function(){
+=======
+And("I created a Physical Buy Trade",function(){
+>>>>>>> 8ec2c716fc6509f8d3284b2cfcd44b8dcd3a2a18
 //Create  a Physical Buy Trade
   Project["Variables"]["TradeNum"]=TradeCapture["CreatePhysicalTrade"](1,Project["Variables"]["RealPortID"])
   Log["Message"]("Newly Created physical Buy Trade Number is :"+Project["Variables"]["TradeNum"]);  

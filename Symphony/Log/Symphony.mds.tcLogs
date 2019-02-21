@@ -66,6 +66,7 @@
 				<Prp name="relpath" type="S" value="2_21_2019_2_13 PM_38_474\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+<<<<<<< HEAD
 			<Node name="log idx=0005">
 				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="43517.6143046759"/>
@@ -93,6 +94,8 @@
 				<Prp name="relpath" type="S" value="2_21_2019_2_48 PM_30_684\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+=======
+>>>>>>> 8ec2c716fc6509f8d3284b2cfcd44b8dcd3a2a18
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
