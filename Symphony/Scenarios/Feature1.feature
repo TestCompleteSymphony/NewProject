@@ -10,7 +10,6 @@
     Then I verified the Trade number for the saved Physical Buy Trade 
     When I created a Physcal Fomula Sale Trade
     Then I verified the Trade number for the saved Physical sale Trade
-    And I verified the Trade number for the saved Physical sale Trade
     When I have launched Logistics application 
     When I created the shipment
     Then I verified the generated shipment Ids

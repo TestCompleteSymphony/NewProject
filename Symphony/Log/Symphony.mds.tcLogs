@@ -102,6 +102,15 @@
 				<Prp name="relpath" type="S" value="2_21_2019_3_03 PM_50_973\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43517.6300296644"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A343EFBA-5911-4336-99AE-BF9690FCE36C}"/>
+				<Prp name="nameofroot" type="S" value="Successfull creation of Phycal BUY/SELL Trades and Allocations by Running PASS"/>
+				<Prp name="relpath" type="S" value="2_21_2019_3_07 PM_14_563\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
