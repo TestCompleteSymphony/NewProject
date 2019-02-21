@@ -10,14 +10,15 @@
     Then I verified the Trade number for the saved Physical Buy Trade 
     When I created a Physcal Fomula Sale Trade
     Then I verified the Trade number for the saved Physical sale Trade
+    When I have launched Risk Manager Application
+    Then I Checked the Position in Portfolio Manager for the created shipments 
+    And verified the Positions with corresponding trades from the App inspector/Trade distributions
     When I have launched Logistics application 
     When I created the shipment
     Then I verified the generated shipment Ids
     When I hvae Actualized using BL actuals and verified 
     When I Propagate Actuals and verified the message "Actual is propagated successfully"
-    When I have launched Risk Manager Application
-    Then I Checked the Position in Portfolio Manager for the created shipments 
-    And verified the Positions with corresponding trades from the App inspector/Trade distributions 
+     
     When I have launched the PASS Application
     Then I Run the pass by selecting the tasks compute PL, Price Formula Trade 
     And The PASS run is completed successfully

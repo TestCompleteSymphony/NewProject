@@ -41,7 +41,20 @@ Then("I verified the Trade number for the saved Physical sale Trade", function (
   Log["Message"]("New Physical Sell Trade is Created Successfully on Portfolio Number:"+Project["Variables"]["RealPortID"]);
   Log["Message"]("Newly Created physical sell Trade Number is :"+Project["Variables"]["TradeNum"]);
 });
+When("I have launched Risk Manager Application", function (){
+  //Launching RiskManager Application
+ LaunchApplication["LaunchRiskManager"]();
+});
 
+Then("I Checked the Position in Portfolio Manager for the created shipments", function (){
+  //validating the data in Positions
+  Positions["ReadPositionData"]();
+});
+
+Then("verified the Positions with corresponding trades from the App inspector\\/Trade distributions", function (){
+  //verifying the positions
+  Positions["ValidatePositions"]();
+});
 When("I have launched Logistics application", function (){
  
 });
@@ -61,17 +74,7 @@ When("I hvae Actualized using BL actuals and verified", function (){
 When("I Propagate Actuals and verified the message {arg}", function (param1){
 });
 
-When("I have launched Risk Manager Application", function (){
-  
-});
 
-Then("I Checked the Position in Portfolio Manager for the created shipments", function (){
-  
-});
-
-Then("verified the Positions with corresponding trades from the App inspector\\/Trade distributions", function (){
-  
-});
 
 When("I have launched the PASS Application", function (){
   
