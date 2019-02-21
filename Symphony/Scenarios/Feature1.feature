@@ -3,8 +3,6 @@
   @SmokeTest
   Scenario: Successfull creation of Phycal BUY/SELL Trades and Allocations by Running PASS 
     Given I have launched Risk Manager Application 
-
-    When I created a Real Portfolio on "3.3.2 Test" as "AutoScenario9" 
     When I created a Real Portfolio on "3.3.2 Test" as "AutoScenario8" 
     Then I verified the port number for the created Real Portfolio
     When I have Launched Trade Capture application
