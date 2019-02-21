@@ -2346,6 +2346,754 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="LogisticsShell" Key="{C1B997AC-0F53-40E3-BA4A-8CD339781BD1}" ParallelWalk="True">
+						<TypeInfo Item0="{8152EEBF-AE34-42E4-999E-8832449C82E1}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="LogisticsShell" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="HwndSource_ribbonWindow" Key="{2102CE12-940D-4A3D-A57D-A58A410154CC}" ParallelWalk="True">
+								<Image FileName="-554108521" Left="0" Top="0" Right="1024" Bottom="768" />
+								<TypeInfo Item0="{55BDBE79-7B8F-470F-B6A9-8B996574EE46}" />
+								<Properties>
+									<Property Name="RootVisual.Name">
+										<Value PropertyType="0" Value="ribbonWindow" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ribbonWindow" Key="{13D0A634-8F01-4496-AF79-C978AA734E1C}" ParallelWalk="True">
+										<Image FileName="-554108521" Left="8" Top="0" Right="1033" Bottom="801" />
+										<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value PropertyType="0" Value="cs.app.logistics.shell.Shell" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ribbonControl" Key="{59569DB7-A12A-4C1C-9E61-ED9399C6BF11}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-554108521" Left="8" Top="0" Right="1017" Bottom="165" />
+												<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value PropertyType="0" Value="ribbonControl" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Panels" Key="{AC42D6FB-F3D8-4845-81E9-EC51513775E8}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-554108521" Left="259" Top="74" Right="513" Bottom="160" />
+														<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value PropertyType="0" Value="Panels" Type="5" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value PropertyType="0" Value="3" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="btnPaperTrades" Key="{96E993EA-E753-4DF8-BAFF-67EA86C1AEBE}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-554108521" Left="261" Top="76" Right="336" Bottom="99" />
+																<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDPaperTrades" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="btnParcels" Key="{F3EB8B91-6DEF-4505-BBCC-26949EAC4F27}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-123267615" Left="586" Top="70" Right="653" Bottom="137" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDParcelsShipments" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="RibbonBar" Key="{4907DC2E-3079-426C-8FC3-9684336AA629}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-554108521" Left="16" Top="74" Right="179" Bottom="160" />
+														<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="DevComponents.WpfRibbon.RibbonBar" Type="5" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="btnNewWindow" Key="{3880B89A-AD2C-45FD-AE14-1E0214E5983F}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-554108521" Left="19" Top="77" Right="62" Bottom="141" />
+																<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDNewWindow" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="Workspace" Key="{06493132-5F22-4972-B9CC-B03298D27327}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-554108521" Left="180" Top="74" Right="258" Bottom="160" />
+														<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value PropertyType="0" Value="Workspace" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="SaveWorkspace" Key="{04302BCC-E635-41B5-BEB4-8D72576D24E1}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-554108521" Left="182" Top="111" Right="205" Bottom="131" />
+																<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDSaveWorkspace" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="workspaceGallery" Key="{71711211-39BC-4AF8-83ED-7D2C5D759FF1}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-554108521" Left="182" Top="76" Right="256" Bottom="112" />
+																<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="workspaceGallery" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="RibbonBackgroundChrome" Key="{A08DB7A2-2BF6-45B5-9FF9-2543DCB82C5E}" ExtendedFind="True" ParallelWalk="True">
+														<TypeInfo Item0="{C9F7235D-72DE-4926-8DD6-B453B7B028A9}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="DevComponents.WpfRibbon.RibbonBackgroundChrome" Type="5" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="dwgMainPanel" Key="{9CFC8C80-E5BD-417D-8962-3F8BD67B479F}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="59593674" Left="8" Top="166" Right="1609" Bottom="880" />
+												<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value PropertyType="0" Value="dwgMainPanel" Type="5" />
+													</Property>
+													<Property Name="WPFControlOrdinalNo">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="ToolBar" Key="{D4007DEC-9966-420B-B5E1-29583CC64813}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="59593674" Left="13" Top="211" Right="131" Bottom="251" />
+														<TypeInfo Item0="{AB0C5F11-ABC1-44B9-B70F-1A8730280834}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Controls.ToolBar" Type="5" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+															<Property Name="WPFControlOrdinalNo">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="zbtnSaveData" Key="{F668484D-20C0-4E0B-B550-9D9CC6DF0868}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="59593674" Left="25" Top="217" Right="53" Bottom="245" />
+																<TypeInfo Item0="{4B6CEFAE-E530-4A52-9D1A-9E464E802540}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDSaveData" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="tradeQuickSearchLayout" Key="{47DE5BD7-0134-4598-8DAB-B0D161F6AD68}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-733826000" Left="10" Top="290" Right="1607" Bottom="313" />
+														<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value PropertyType="0" Value="tradeQuickSearchLayout" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="txtTradeNum" Key="{D0091E6B-4968-4C6D-A712-2C1D8629B043}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1669415130" Left="32" Top="344" Right="183" Bottom="367" />
+																<TypeInfo Item0="{EE5311CD-5972-4730-89D1-B5BA776C0C22}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDtxtTradeNum" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="btnSearch" Key="{CC78AB3C-762D-4458-8026-8603AAD452A5}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1669415130" Left="1544" Top="373" Right="1585" Bottom="414" />
+																<TypeInfo Item0="{4B6CEFAE-E530-4A52-9D1A-9E464E802540}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="btnSearch" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="StackPanel" Key="{1EB04A1B-17F8-457D-86EA-6885D5BFDBBA}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1669415130" Left="192" Top="328" Right="343" Bottom="367" />
+																<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="System.Windows.Controls.StackPanel" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="2" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ddPortfolio" Key="{4D0FAA6A-0ADB-47C6-A5C3-3A335EC4D885}" ExtendedFind="True" ParallelWalk="True">
+																		<Image FileName="1669415130" Left="192" Top="344" Right="343" Bottom="365" />
+																		<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																		<Properties>
+																			<Property Name="WPFControlAutomationId">
+																				<Value PropertyType="0" Value="aIDPortfolio" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="lookupEdit" Key="{6E7D8376-BD74-4474-AC40-233679061362}" ExtendedFind="True" ParallelWalk="True">
+																				<Image FileName="1669415130" Left="192" Top="344" Right="343" Bottom="365" />
+																				<TypeInfo Item0="{B8F0789B-1979-4F41-AAE7-381B0045C6AC}" />
+																				<Properties>
+																					<Property Name="WPFControlName">
+																						<Value PropertyType="0" Value="lookupEdit" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="GroupBox" Key="{6612172A-7B2D-4512-8C99-6720C9427371}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-462236787" Left="2" Top="282" Right="1599" Bottom="305" />
+																<TypeInfo Item0="{C9F7235D-72DE-4926-8DD6-B453B7B028A9}" />
+																<Properties>
+																	<Property Name="ClrFullClassName">
+																		<Value PropertyType="0" Value="DevExpress.Xpf.LayoutControl.GroupBox" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="AllTradeTypesToolBarApplet" Key="{3FA87179-0866-43EC-B59D-D7484AB4815E}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1135843586" Left="8" Top="252" Right="1609" Bottom="289" />
+														<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="cs.m.logistics.allTradeTypes.FormApplets.AllTradeTypesToolBarApplet" Type="5" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value PropertyType="0" Value="" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="btnAddCost" Key="{5B619977-F67C-48D8-842D-3C01CC8873A2}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1135843586" Left="298" Top="258" Right="362" Bottom="283" />
+																<TypeInfo Item0="{4B6CEFAE-E530-4A52-9D1A-9E464E802540}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDPAddCost" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="btnCreateParcel" Key="{2B3C4D74-FECE-41A1-B943-19431E859BEF}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1135843586" Left="86" Top="258" Right="173" Bottom="283" />
+																<TypeInfo Item0="{4B6CEFAE-E530-4A52-9D1A-9E464E802540}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDATTCreateParcel" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="btnBulkEdit" Key="{AB70A54F-49D9-43E6-8577-1A60F0FAB0F5}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1135843586" Left="14" Top="258" Right="77" Bottom="283" />
+																<TypeInfo Item0="{4B6CEFAE-E530-4A52-9D1A-9E464E802540}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="btnBulkEdit" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="btnCreateShipment" Key="{F8610677-1A37-4363-8ECB-E1E94E5403F8}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1135843586" Left="182" Top="258" Right="289" Bottom="283" />
+																<TypeInfo Item0="{4B6CEFAE-E530-4A52-9D1A-9E464E802540}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDATTCreateShipment" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="btnDocGen" Key="{072F938D-5C37-45DA-AA4B-7C0500F12CB4}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1135843586" Left="576" Top="258" Right="701" Bottom="283" />
+																<TypeInfo Item0="{4B6CEFAE-E530-4A52-9D1A-9E464E802540}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDATTDocGen" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="btnNewAgreement" Key="{437619F3-D709-4EC2-9CEB-37EB3C3B21D9}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1135843586" Left="371" Top="258" Right="472" Bottom="283" />
+																<TypeInfo Item0="{4B6CEFAE-E530-4A52-9D1A-9E464E802540}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="aIDATTNewAgreement" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="txtMessage" Key="{7CEE27F9-858E-4884-AB0C-B7959104CA63}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="997167756" Left="722" Top="250" Right="982" Bottom="275" />
+																<TypeInfo Item0="{C9F7235D-72DE-4926-8DD6-B453B7B028A9}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="txtMessage" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="mainGrid" Key="{1E11E7ED-C02E-45DD-BC25-E84285E79A75}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1135843586" Left="8" Top="188" Right="1609" Bottom="880" />
+														<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value PropertyType="0" Value="mainGrid" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="splitViewGrid" Key="{07E31A96-412F-49D0-91CC-48D2FE257F3E}" ParallelWalk="True">
+																<Image FileName="1135843586" Left="8" Top="464" Right="1609" Bottom="877" />
+																<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="splitViewGrid" Type="5" />
+																	</Property>
+																	<Property Name="WPFControlOrdinalNo">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Table1" Key="{4DC45040-9A87-4CFB-AC63-B727B517BDEB}" ExtendedFind="True" ParallelWalk="True">
+																		<Image FileName="1135843586" Left="8" Top="464" Right="807" Bottom="877" />
+																		<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																		<Properties>
+																			<Property Name="WPFControlName">
+																				<Value PropertyType="0" Value="Table1" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="mainGrid" Key="{ECBE9B9E-5D15-4C83-B811-29D5103EE07E}" ExtendedFind="True" ParallelWalk="True">
+																				<Image FileName="1135843586" Left="8" Top="464" Right="807" Bottom="877" />
+																				<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																				<Properties>
+																					<Property Name="WPFControlName">
+																						<Value PropertyType="0" Value="mainGrid" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="ccContent" Key="{1BEC0822-047D-49D3-9682-D74B657155FD}" ExtendedFind="True" ParallelWalk="True">
+																						<Image FileName="656625116" Left="0" Top="314" Right="1598" Bottom="869" />
+																						<Properties>
+																							<Property Name="WPFControlName">
+																								<Value PropertyType="0" Value="ccContent" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="DataRow" Key="{0D75DE9D-CFF9-4FD0-9C02-6655BCD36AD1}" ExtendedFind="True" ParallelWalk="True">
+																								<Image FileName="656625116" Left="20" Top="424" Right="2074" Bottom="445" />
+																								<TypeInfo Item0="{C9F7235D-72DE-4926-8DD6-B453B7B028A9}" />
+																								<Properties>
+																									<Property Name="ClrFullClassName">
+																										<Value PropertyType="0" Value="Xceed.Wpf.DataGrid.DataRow" Type="5" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="DatacellAddaxGroup" Key="{5D154610-2A84-4756-ABDC-D1CD5DBEA5E3}" ExtendedFind="True" ParallelWalk="True">
+																						<Image FileName="-1283170671" Left="259" Top="566" Right="394" Bottom="585" />
+																						<TypeInfo Item0="{C9F7235D-72DE-4926-8DD6-B453B7B028A9}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value PropertyType="0" Value="Xceed.Wpf.DataGrid.DataCell" Type="5" />
+																							</Property>
+																							<Property Name="WPFControlText">
+																								<Value PropertyType="0" Value="ADDAX GROUP" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="Table2" Key="{18F7AB5A-B036-481E-9EDD-DA108955F751}" ExtendedFind="True" ParallelWalk="True">
+																		<Image FileName="1196467273" Left="809" Top="464" Right="1609" Bottom="877" />
+																		<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																		<Properties>
+																			<Property Name="WPFControlName">
+																				<Value PropertyType="0" Value="Table2" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="mainGrid" Key="{8D428A2C-6E2B-4554-9812-513FDB840852}" ExtendedFind="True" ParallelWalk="True">
+																				<Image FileName="1196467273" Left="809" Top="464" Right="1609" Bottom="877" />
+																				<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																				<Properties>
+																					<Property Name="WPFControlName">
+																						<Value PropertyType="0" Value="mainGrid" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Datacell1112018120000Am" Key="{289D3F56-F603-42D5-AB0E-EFD8ACEAC374}" ExtendedFind="True" ParallelWalk="True">
+																						<Image FileName="-415123982" Left="834" Top="566" Right="910" Bottom="585" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value PropertyType="0" Value="Xceed.Wpf.DataGrid.DataCell" Type="5" />
+																							</Property>
+																							<Property Name="WPFControlText">
+																								<Value PropertyType="0" Value="11/1/2018 12:00:00 AM" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="ShipmentBuilderGrid" Key="{04F9C455-A816-45D0-AD01-0EE9FED2CE88}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-235665543" Left="10" Top="735" Right="1607" Bottom="878" />
+																<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="ShipmentBuilderGrid" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="mainGrid" Key="{6B81BF72-7D81-429A-B703-2F41EE00C8F2}" ExtendedFind="True" ParallelWalk="True">
+																		<Image FileName="-235665543" Left="10" Top="735" Right="1604" Bottom="878" />
+																		<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																		<Properties>
+																			<Property Name="WPFControlName">
+																				<Value PropertyType="0" Value="mainGrid" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="DataRow" Key="{728E198B-7653-41B2-9E6D-29EC87071296}" ExtendedFind="True" ParallelWalk="True">
+																				<Image FileName="-235665543" Left="30" Top="814" Right="1766" Bottom="835" />
+																				<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																				<Properties>
+																					<Property Name="ClrFullClassName">
+																						<Value PropertyType="0" Value="Xceed.Wpf.DataGrid.DataRow" Type="5" />
+																					</Property>
+																					<Property Name="WPFControlOrdinalNo">
+																						<Value PropertyType="0" Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="DatacellLoad" Key="{AB21BA67-74D6-42EA-98EA-38E071749E0F}" ExtendedFind="True" ParallelWalk="True">
+																						<Image FileName="-1779054398" Left="201" Top="807" Right="265" Bottom="827" />
+																						<TypeInfo Item0="{C9F7235D-72DE-4926-8DD6-B453B7B028A9}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value PropertyType="0" Value="Xceed.Wpf.DataGrid.DataCell" Type="5" />
+																							</Property>
+																							<Property Name="WPFControlText">
+																								<Value PropertyType="0" Value="Load" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="DataRow2" Key="{1A315E72-1FC0-4F77-82F4-88B50E30DC7F}" ExtendedFind="True" ParallelWalk="True">
+																				<Image FileName="-235665543" Left="30" Top="834" Right="1766" Bottom="855" />
+																				<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																				<Properties>
+																					<Property Name="ClrFullClassName">
+																						<Value PropertyType="0" Value="Xceed.Wpf.DataGrid.DataRow" Type="5" />
+																					</Property>
+																					<Property Name="WPFControlOrdinalNo">
+																						<Value PropertyType="0" Value="2" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="DatacellBrent" Key="{31686C1A-D862-471B-B786-57EA2BABA0F6}" ExtendedFind="True" ParallelWalk="True">
+																						<Image FileName="1638695494" Left="342" Top="822" Right="407" Bottom="841" />
+																						<TypeInfo Item0="{C9F7235D-72DE-4926-8DD6-B453B7B028A9}" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value PropertyType="0" Value="Xceed.Wpf.DataGrid.DataCell" Type="5" />
+																							</Property>
+																							<Property Name="WPFControlText">
+																								<Value PropertyType="0" Value="BRENT" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="DataRow3" Key="{FBF54F1D-032E-4162-B4EF-BFF13F3ED17D}" ExtendedFind="True" ParallelWalk="True">
+																				<Image FileName="940183829" Left="30" Top="808" Right="1401" Bottom="830" />
+																				<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																				<Properties>
+																					<Property Name="ClrFullClassName">
+																						<Value PropertyType="0" Value="Xceed.Wpf.DataGrid.DataRow" Type="5" />
+																					</Property>
+																					<Property Name="WPFControlOrdinalNo">
+																						<Value PropertyType="0" Value="3" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="DataRow4" Key="{7522CACD-D427-444D-BE70-083EDEB5301A}" ExtendedFind="True" ParallelWalk="True">
+																				<Image FileName="-626156995" Left="30" Top="829" Right="1401" Bottom="851" />
+																				<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																				<Properties>
+																					<Property Name="ClrFullClassName">
+																						<Value PropertyType="0" Value="Xceed.Wpf.DataGrid.DataRow" Type="5" />
+																					</Property>
+																					<Property Name="WPFControlOrdinalNo">
+																						<Value PropertyType="0" Value="4" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="DatacellAiestactualbizTemporaryguid153ed95" Key="{8A4C5537-B025-4D68-A1D6-A05AF0D476BD}" ExtendedFind="True" ParallelWalk="True">
+																						<Image FileName="-1847187005" Left="392" Top="822" Right="518" Bottom="842" />
+																						<Properties>
+																							<Property Name="ClrFullClassName">
+																								<Value PropertyType="0" Value="Xceed.Wpf.DataGrid.DataCell" Type="5" />
+																							</Property>
+																							<Property Name="WPFControlText">
+																								<Value PropertyType="0" Value="AiEstActualBiz:temporaryGuid=153ed951-a310-4e0e-84fc-15ccdf2537ed;" Type="5" />
+																							</Property>
+																							<Property Name="WPFControlOrdinalNo">
+																								<Value PropertyType="0" Value="3" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="stpActualButtons" Key="{C95CDD32-5C7D-4577-8439-97C049642B29}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1795296795" Left="8" Top="609" Right="178" Bottom="639" />
+																<TypeInfo Item0="{6B8A7B7B-8B0A-4C6C-974D-00965A386CEC}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="stpActualButtons" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="btnAddActual" Key="{2E7CF17E-B9B1-4113-B9DF-53C807926E8E}" ParallelWalk="True">
+																		<Image FileName="1795296795" Left="10" Top="611" Right="79" Bottom="637" />
+																		<TypeInfo Item0="{4B6CEFAE-E530-4A52-9D1A-9E464E802540}" />
+																		<Properties>
+																			<Property Name="WPFControlName">
+																				<Value PropertyType="0" Value="btnAddActual" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="btnRemoveActual" Key="{758994E3-8569-4042-AD9F-4F94A1D85DB3}" ExtendedFind="True" ParallelWalk="True">
+																		<Image FileName="1795296795" Left="82" Top="611" Right="176" Bottom="637" />
+																		<TypeInfo Item0="{4B6CEFAE-E530-4A52-9D1A-9E464E802540}" />
+																		<Properties>
+																			<Property Name="WPFControlName">
+																				<Value PropertyType="0" Value="btnRemoveActual" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="chkFullyActualize" Key="{FFBB1A6B-422A-4F7C-BE4F-74731141CC29}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1795296795" Left="294" Top="616" Right="390" Bottom="631" />
+																<TypeInfo Item0="{9B4A3D2E-0482-44C4-A7BF-DF1DC2AC01B7}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="chkFullyActualize" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="chkPropagateActual" Key="{FB168073-C94A-4D80-9BDB-C8B20F1AFA31}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1795296795" Left="490" Top="616" Right="607" Bottom="631" />
+																<TypeInfo Item0="{9B4A3D2E-0482-44C4-A7BF-DF1DC2AC01B7}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="chkPropagateActual" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="zProgressBar" Key="{9B1F4DFA-2A00-40B7-BDF8-4CF03ECA8F4C}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="4203152" Left="1444" Top="249" Right="1545" Bottom="270" />
+																<TypeInfo Item0="{C9F7235D-72DE-4926-8DD6-B453B7B028A9}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="_ProgressBar" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="zMessageBlock" Key="{FAF93274-E3CA-4D72-B707-E15D17EC4CAF}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="297448704" Left="654" Top="248" Right="790" Bottom="271" />
+																<TypeInfo Item0="{CDB91E4C-6C78-4C5D-A83E-02EFF1365CF2}" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="_MessageBlock" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="userPrefToolbar" Key="{3D8CA970-61D0-4743-9B05-88474098A4D9}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="1508875285" Left="122" Top="203" Right="410" Bottom="243" />
+																<Properties>
+																	<Property Name="WPFControlName">
+																		<Value PropertyType="0" Value="userPrefToolbar" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="cboQueries" Key="{D2072134-A522-4FF0-8B19-81D8B8B4EFBD}" ExtendedFind="True" ParallelWalk="True">
+																		<Image FileName="1508875285" Left="187" Top="213" Right="288" Bottom="232" />
+																		<TypeInfo Item0="{5091AE39-3899-4B55-BF3C-957083AF5786}" />
+																		<Properties>
+																			<Property Name="WPFControlAutomationId">
+																				<Value PropertyType="0" Value="aIDQueries" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_Window" Key="{868F4BCC-B989-4F05-890A-BE3D1A2A3806}" ParallelWalk="True">
+								<Image FileName="1882267899" Left="0" Top="0" Right="766" Bottom="749" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value PropertyType="0" Value="Window" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Window" Key="{9FA16290-BF2C-4F39-9AA0-788C79382698}" ParallelWalk="True">
+										<Image FileName="1882267899" Left="3" Top="21" Right="770" Bottom="771" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value PropertyType="0" Value="System.Windows.Window" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="w_scrollViewer" Key="{DF34FAC4-3F9E-432C-B88D-5207AC123E14}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="1882267899" Left="224" Top="84" Right="758" Bottom="633" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value PropertyType="0" Value="w_scrollViewer" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="lstStringInspector" Key="{6D2E39CD-1373-43FB-B077-2EC1EF51973A}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="-1819367489" Left="224" Top="94" Right="578" Bottom="547" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value PropertyType="0" Value="lstStringInspector" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="txtAttribValue" Key="{08960E58-D7F2-4E59-9BC1-FDEB2614924C}" ExtendedFind="True" ParallelWalk="True">
+																<Image FileName="-1819367489" Left="356" Top="98" Right="557" Bottom="121" />
+																<TypeInfo Item0="{C9F7235D-72DE-4926-8DD6-B453B7B028A9}" />
+																<Properties>
+																	<Property Name="WPFControlAutomationId">
+																		<Value PropertyType="0" Value="AutoSelectTextBox" Type="5" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="btnClear" Key="{51D6C885-3D47-40B8-999D-3E28B93D1B0D}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="1882267899" Left="229" Top="607" Right="266" Bottom="628" />
+														<TypeInfo Item0="{46DBF5F1-5DF8-43E4-858F-7C71A53E80F6}" />
+														<Properties>
+															<Property Name="WPFControlAutomationId">
+																<Value PropertyType="0" Value="aIDClear" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="treeAttributes" Key="{7653A44F-6D8F-4B59-8A0E-7CB6B956FC6D}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="739457525" Left="8" Top="69" Right="215" Bottom="620" />
+												<Properties>
+													<Property Name="WPFControlName">
+														<Value PropertyType="0" Value="treeAttributes" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="btnOk" Key="{9ECA121C-AC3E-4F35-9C84-B9EA3E661AC0}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-1823774373" Left="73" Top="682" Right="124" Bottom="703" />
+												<TypeInfo Item0="{46DBF5F1-5DF8-43E4-858F-7C71A53E80F6}" />
+												<Properties>
+													<Property Name="WPFControlAutomationId">
+														<Value PropertyType="0" Value="aIDQBOk" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="HwndSource_PopupRoot" Key="{067D5119-3262-4C88-B5B9-FBE8D6CCDC09}" ParallelWalk="True">
+								<Image FileName="-1739357072" Left="0" Top="0" Right="261" Bottom="168" />
+								<Properties>
+									<Property Name="RootVisual.ClrClassName">
+										<Value PropertyType="0" Value="PopupRoot" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="PopupRoot" Key="{CB3DBEDE-7342-46DE-A38D-653930470B77}" ParallelWalk="True">
+										<Image FileName="-1739357072" Left="0" Top="0" Right="262" Bottom="169" />
+										<Properties>
+											<Property Name="ClrFullClassName">
+												<Value PropertyType="0" Value="System.Windows.Controls.Primitives.PopupRoot" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="ButtondropdownShipmentPanel" Key="{ABC1FF2E-E17F-4218-ABD3-A10FC25E186F}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-1739357072" Left="3" Top="49" Right="107" Bottom="72" />
+												<TypeInfo Item0="{C9F7235D-72DE-4926-8DD6-B453B7B028A9}" />
+												<Properties>
+													<Property Name="WPFControlAutomationId">
+														<Value PropertyType="0" Value="aIDShipmentPanel" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -2653,6 +3401,107 @@
 			<Child Name="HwndSource_CommonMessageBox" Owner="{3B9D1CEC-DAA4-4FB9-B2AF-51EEF7462119}">
 				<Child Name="CommonMessageBox" Owner="{59CBC088-90D0-42E5-B180-397B4B3530B8}">
 					<Child Name="btnYes" Owner="{7691F66D-BC7C-444C-BA2E-42047DA6EF47}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="LogisticsShell" Owner="{C1B997AC-0F53-40E3-BA4A-8CD339781BD1}">
+			<Child Name="HwndSource_ribbonWindow" Owner="{2102CE12-940D-4A3D-A57D-A58A410154CC}">
+				<Child Name="ribbonWindow" Owner="{13D0A634-8F01-4496-AF79-C978AA734E1C}">
+					<Child Name="ribbonControl" Owner="{59569DB7-A12A-4C1C-9E61-ED9399C6BF11}">
+						<Child Name="Panels" Owner="{AC42D6FB-F3D8-4845-81E9-EC51513775E8}">
+							<Child Name="AllTrades" Owner="{96E993EA-E753-4DF8-BAFF-67EA86C1AEBE}" />
+							<Child Name="btnParcels" Owner="{F3EB8B91-6DEF-4505-BBCC-26949EAC4F27}" />
+						</Child>
+						<Child Name="RibbonBar" Owner="{4907DC2E-3079-426C-8FC3-9684336AA629}">
+							<Child Name="NewWindow" Owner="{3880B89A-AD2C-45FD-AE14-1E0214E5983F}" />
+						</Child>
+						<Child Name="Workspace" Owner="{06493132-5F22-4972-B9CC-B03298D27327}">
+							<Child Name="SaveWorkspace" Owner="{04302BCC-E635-41B5-BEB4-8D72576D24E1}" />
+							<Child Name="WorkspaceGallery" Owner="{71711211-39BC-4AF8-83ED-7D2C5D759FF1}" />
+						</Child>
+						<Child Name="RibbonBackgroundChrome" Owner="{A08DB7A2-2BF6-45B5-9FF9-2543DCB82C5E}" />
+					</Child>
+					<Child Name="MainPanel" Owner="{9CFC8C80-E5BD-417D-8962-3F8BD67B479F}">
+						<Child Name="ToolBar" Owner="{D4007DEC-9966-420B-B5E1-29583CC64813}">
+							<Child Name="SaveData" Owner="{F668484D-20C0-4E0B-B550-9D9CC6DF0868}" />
+						</Child>
+						<Child Name="tradeQuickSearchLayout" Owner="{47DE5BD7-0134-4598-8DAB-B0D161F6AD68}">
+							<Child Name="TradeNum" Owner="{D0091E6B-4968-4C6D-A712-2C1D8629B043}" />
+							<Child Name="Search" Owner="{CC78AB3C-762D-4458-8026-8603AAD452A5}" />
+							<Child Name="Portfolio" Owner="{4D0FAA6A-0ADB-47C6-A5C3-3A335EC4D885}">
+								<Child Name="lookupEdit" Owner="{6E7D8376-BD74-4474-AC40-233679061362}" />
+							</Child>
+							<Child Name="GroupBox" Owner="{6612172A-7B2D-4512-8C99-6720C9427371}" />
+						</Child>
+						<Child Name="AllTradeTypesToolBarApplet" Owner="{3FA87179-0866-43EC-B59D-D7484AB4815E}">
+							<Child Name="AddCost" Owner="{5B619977-F67C-48D8-842D-3C01CC8873A2}" />
+							<Child Name="BulkEdit" Owner="{AB70A54F-49D9-43E6-8577-1A60F0FAB0F5}" />
+							<Child Name="CreateParcel" Owner="{2B3C4D74-FECE-41A1-B943-19431E859BEF}" />
+							<Child Name="CreateShipment" Owner="{F8610677-1A37-4363-8ECB-E1E94E5403F8}" />
+							<Child Name="DocGen" Owner="{072F938D-5C37-45DA-AA4B-7C0500F12CB4}" />
+							<Child Name="NewAgreement" Owner="{437619F3-D709-4EC2-9CEB-37EB3C3B21D9}" />
+							<Child Name="txtMessage" Owner="{7CEE27F9-858E-4884-AB0C-B7959104CA63}" />
+						</Child>
+						<Child Name="MainGrid" Owner="{1E11E7ED-C02E-45DD-BC25-E84285E79A75}">
+							<Child Name="SplitViewGrid" Owner="{07E31A96-412F-49D0-91CC-48D2FE257F3E}">
+								<Child Name="Table1" Owner="{4DC45040-9A87-4CFB-AC63-B727B517BDEB}">
+									<Child Name="MainGrid" Owner="{ECBE9B9E-5D15-4C83-B811-29D5103EE07E}">
+										<Child Name="ccContent" Owner="{1BEC0822-047D-49D3-9682-D74B657155FD}">
+											<Child Name="DataRow" Owner="{0D75DE9D-CFF9-4FD0-9C02-6655BCD36AD1}" />
+										</Child>
+										<Child Name="DatacellAddaxGroup" Owner="{5D154610-2A84-4756-ABDC-D1CD5DBEA5E3}" />
+									</Child>
+								</Child>
+								<Child Name="Table2" Owner="{18F7AB5A-B036-481E-9EDD-DA108955F751}">
+									<Child Name="MainGrid" Owner="{8D428A2C-6E2B-4554-9812-513FDB840852}">
+										<Child Name="Datacell1112018120000Am" Owner="{289D3F56-F603-42D5-AB0E-EFD8ACEAC374}" />
+									</Child>
+								</Child>
+							</Child>
+							<Child Name="ShipmentBuilderGrid" Owner="{04F9C455-A816-45D0-AD01-0EE9FED2CE88}">
+								<Child Name="MainGrid" Owner="{6B81BF72-7D81-429A-B703-2F41EE00C8F2}">
+									<Child Name="DataRow" Owner="{728E198B-7653-41B2-9E6D-29EC87071296}">
+										<Child Name="DatacellLoad" Owner="{AB21BA67-74D6-42EA-98EA-38E071749E0F}" />
+									</Child>
+									<Child Name="DataRow2" Owner="{1A315E72-1FC0-4F77-82F4-88B50E30DC7F}">
+										<Child Name="DatacellBrent" Owner="{31686C1A-D862-471B-B786-57EA2BABA0F6}" />
+									</Child>
+									<Child Name="DataRow3" Owner="{FBF54F1D-032E-4162-B4EF-BFF13F3ED17D}" />
+									<Child Name="DataRow4" Owner="{7522CACD-D427-444D-BE70-083EDEB5301A}">
+										<Child Name="DatacellAiestactualbizTemporaryguid153ed95" Owner="{8A4C5537-B025-4D68-A1D6-A05AF0D476BD}" />
+									</Child>
+								</Child>
+							</Child>
+							<Child Name="ActualButtons" Owner="{C95CDD32-5C7D-4577-8439-97C049642B29}">
+								<Child Name="AddActual" Owner="{2E7CF17E-B9B1-4113-B9DF-53C807926E8E}" />
+								<Child Name="RemoveActual" Owner="{758994E3-8569-4042-AD9F-4F94A1D85DB3}" />
+							</Child>
+							<Child Name="FullyActualize" Owner="{FFBB1A6B-422A-4F7C-BE4F-74731141CC29}" />
+							<Child Name="PropagateActual" Owner="{FB168073-C94A-4D80-9BDB-C8B20F1AFA31}" />
+							<Child Name="zProgressBar" Owner="{9B1F4DFA-2A00-40B7-BDF8-4CF03ECA8F4C}" />
+							<Child Name="zMessageBlock" Owner="{FAF93274-E3CA-4D72-B707-E15D17EC4CAF}" />
+							<Child Name="userPrefToolbar" Owner="{3D8CA970-61D0-4743-9B05-88474098A4D9}">
+								<Child Name="cboQueries" Owner="{D2072134-A522-4FF0-8B19-81D8B8B4EFBD}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="HwndSource_Window" Owner="{868F4BCC-B989-4F05-890A-BE3D1A2A3806}">
+				<Child Name="Window" Owner="{9FA16290-BF2C-4F39-9AA0-788C79382698}">
+					<Child Name="w_scrollViewer" Owner="{DF34FAC4-3F9E-432C-B88D-5207AC123E14}">
+						<Child Name="lstStringInspector" Owner="{6D2E39CD-1373-43FB-B077-2EC1EF51973A}">
+							<Child Name="txtAttribValue" Owner="{08960E58-D7F2-4E59-9BC1-FDEB2614924C}" />
+						</Child>
+						<Child Name="btnClear" Owner="{51D6C885-3D47-40B8-999D-3E28B93D1B0D}" />
+					</Child>
+					<Child Name="treeAttributes" Owner="{7653A44F-6D8F-4B59-8A0E-7CB6B956FC6D}" />
+					<Child Name="btnOk" Owner="{9ECA121C-AC3E-4F35-9C84-B9EA3E661AC0}" />
+				</Child>
+			</Child>
+			<Child Name="HwndSource_PopupRoot" Owner="{067D5119-3262-4C88-B5B9-FBE8D6CCDC09}">
+				<Child Name="PopupRoot" Owner="{CB3DBEDE-7342-46DE-A38D-653930470B77}">
+					<Child Name="ButtondropdownShipmentPanel" Owner="{ABC1FF2E-E17F-4218-ABD3-A10FC25E186F}" />
 				</Child>
 			</Child>
 		</Child>
@@ -7054,6 +7903,847 @@
 							<ParamDesc Flags="1" />
 						</Param1>
 						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-1607636024" Key="{AB0C5F11-ABC1-44B9-B70F-1A8730280834}">
+			<Data Properties="ZZKFFFFFFFFFFFFFFFFN8L4K26ZZY">
+				<FunctionDescriptions>
+					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4SA8TDZN">
+						<ReturnValue Param0="13" />
+					</Child>
+					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T8S13ZG1K">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K6U9ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S58T3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K38S18ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickItem" Doc="Simulates a click on Item specified by index from 0 or by name, with shift keys in the state specified by Shift." IsBasic="True" Param0="Item" Param1="Shift" Data="ZI4L1L4L2K38S18ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param1>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K48S18ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClrFullClassName" Doc="The full name of the object&apos;s class." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4S7UBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S68TBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K78T9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindAll" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K8UCZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="FindAllChildren" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4KCUCZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="FindChild" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4KB8T9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindChildEx" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Param4="Timeout" Data="ZI4L1L4L5K4U9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param4>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindEx" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Param4="Timeout" Data="ZI4L1L4L5K38T9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param4>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K4U9ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param1>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4SAU8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K28S18ZG1K">
+						<Param0>
+							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="26" Param1="26" Param2="16" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="23" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="19" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="26" Param1="3" />
+							<ParamDesc Flags="2" />
+						</Param4>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K2T18ZG1K">
+						<Param0>
+							<TypeDesc Param0="23" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="19" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="26" Param1="26" Param2="24" />
+							<ParamDesc Flags="2" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1K18S18ZG1K">
+						<Param0>
+							<TypeDesc Param0="26" Param1="23" />
+							<ParamDesc Flags="2" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4S68T3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S38T3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K3T18ZG1K">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="19" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="18" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="26" Param1="29" Type1="DISPPARAMS" />
+							<ParamDesc Flags="1" />
+						</Param4>
+						<Param5>
+							<TypeDesc Param0="26" Param1="12" />
+							<ParamDesc Flags="2" />
+						</Param5>
+						<Param6>
+							<TypeDesc Param0="26" Param1="29" Type1="EXCEPINFO" />
+							<ParamDesc Flags="2" />
+						</Param6>
+						<Param7>
+							<TypeDesc Param0="26" Param1="23" />
+							<ParamDesc Flags="2" />
+						</Param7>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1K8T18ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S9U8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S48T8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S5U9ZN">
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018ZG1K">
+						<Param0>
+							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="26" Param1="26" Param2="24" />
+							<ParamDesc Flags="2" />
+						</Param1>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Refresh" Doc="Updates the internal list of child objects." IsBasic="True" Data="ZI4L1L4S98S18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Release" IsBasic="True" Data="ZI4L1L4S1T13ZG1K">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G7T18Z04L">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="17" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4S38TBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K88T9ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param1>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3KBUBZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param2>
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="wButtonCount" Doc="Returns the total number of buttons in the toolbar control." IsBasic="True" Data="ZI4L2L4S8U3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="wButtonText" Doc="Returns the name of the button specified by Item, which is the button position, from 0." IsBasic="True" Param0="Item" Data="ZI4L2L4L1K9U8ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4S6U3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="922889031" Key="{9B4A3D2E-0482-44C4-A7BF-DF1DC2AC01B7}">
+			<Data Properties="ZZKFFFFFFFFFFFFFFFFN8L4K26ZZY">
+				<FunctionDescriptions>
+					<Child Name="_NewEnum" Doc="Returns an enumerator for the children collection." IsBasic="True" Data="ZI4L2L4SA8TDZN">
+						<ReturnValue Param0="13" />
+					</Child>
+					<Child Name="AddRef" IsBasic="True" Data="ZI4L1L4T8S13ZG1K">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Child" Doc="Returns a child object by its index." IsBasic="True" Param0="Index" Data="ZI4L1L4L1K6U9ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="ChildCount" Doc="The number of child objects." IsBasic="True" Data="ZI4L2L4S58T3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K38S18ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickButton" Doc="Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached." IsBasic="True" Param0="State" Data="ZI4L1L4L1K38S18ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3K48S18ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClrFullClassName" Doc="The full name of the object&apos;s class." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4S7UBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Exists" Doc="True if the object exists in the system; else, false." IsBasic="True" Data="ZI4L2L4S68TBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Find" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K78T9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindAll" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4K8UCZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="FindAllChildren" Doc="Returns an array of objects by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4KCUCZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="FindChild" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Data="ZI4L1L4L4KB8T9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindChildEx" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Param4="Timeout" Data="ZI4L1L4L5K4U9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param4>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindEx" Doc="Returns an object by the values of the specified properties." IsBasic="True" Param0="PropNames" Param1="PropValues" Param2="Depth" Param3="RefreshTree" Param4="Timeout" Data="ZI4L1L4L5K38T9ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="1" Type="0" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param4>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FindId" Doc="Returns an object by its ID." IsBasic="True" Param0="Id" Param1="RefreshTree" Data="ZI4L1L4L2K4U9ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="11" />
+							<ParamDesc Flags="49" Value="True" Type="6" />
+						</Param1>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="FullName" Doc="Returns the full name of an object.&#32;&#32;Its full name uniquely identifies an object in the system." IsBasic="True" Data="ZI4L2L4SAU8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="GetIDsOfNames" IsBasic="True" Param0="riid" Param1="rgszNames" Param2="cNames" Param3="lcid" Param4="rgdispid" Data="ZI4L1L4L5K28S18ZG1K">
+						<Param0>
+							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="26" Param1="26" Param2="16" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="23" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="19" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="26" Param1="3" />
+							<ParamDesc Flags="2" />
+						</Param4>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="GetTypeInfo" IsBasic="True" Param0="itinfo" Param1="lcid" Param2="pptinfo" Data="ZI4L1L4L3K2T18ZG1K">
+						<Param0>
+							<TypeDesc Param0="23" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="19" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="26" Param1="26" Param2="24" />
+							<ParamDesc Flags="2" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="GetTypeInfoCount" IsBasic="True" Param0="pctinfo" Data="ZI4L1L4L1K18S18ZG1K">
+						<Param0>
+							<TypeDesc Param0="26" Param1="23" />
+							<ParamDesc Flags="2" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4S68T3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Id" Doc="Object ID. For processes, the process ID; for windows, the window handle, etc." IsBasic="True" Data="ZI4L2L4S38T3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Invoke" IsBasic="True" Param0="dispidMember" Param1="riid" Param2="lcid" Param3="wFlags" Param4="pdispparams" Param5="pvarResult" Param6="pexcepinfo" Param7="puArgErr" Data="ZI4L1L4L8K3T18ZG1K">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="19" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="18" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<Param4>
+							<TypeDesc Param0="26" Param1="29" Type1="DISPPARAMS" />
+							<ParamDesc Flags="1" />
+						</Param4>
+						<Param5>
+							<TypeDesc Param0="26" Param1="12" />
+							<ParamDesc Flags="2" />
+						</Param5>
+						<Param6>
+							<TypeDesc Param0="26" Param1="29" Type1="EXCEPINFO" />
+							<ParamDesc Flags="2" />
+						</Param6>
+						<Param7>
+							<TypeDesc Param0="26" Param1="23" />
+							<ParamDesc Flags="2" />
+						</Param7>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1K8T18ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="MappedName" Doc="Specifies the mapped name of the object." IsBasic="True" Data="ZI4L2L4S9U8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Name" Doc="Object name." IsBasic="True" Data="ZI4L2L4S48T8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="Parent" Doc="Parent object." IsBasic="True" Data="ZI4L2L4S5U9ZN">
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="QueryInterface" IsBasic="True" Param0="riid" Param1="ppvObj" Data="ZI4L1L4L2Z018ZG1K">
+						<Param0>
+							<TypeDesc Param0="26" Param1="29" Type1="GUID" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="26" Param1="26" Param2="24" />
+							<ParamDesc Flags="2" />
+						</Param1>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Refresh" Doc="Updates the internal list of child objects." IsBasic="True" Data="ZI4L1L4S98S18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Release" IsBasic="True" Data="ZI4L1L4S1T13ZG1K">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Validate" Doc="Generates the OnValidate event." IsBasic="True" Param0="Params" Data="ZI4L1L4L1H1G7T18Z04L">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="17" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4S38TBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WaitChild" Doc="Delays script execution until the specified child object appears in the child list or the specified time limit is reached." IsBasic="True" Param0="ChildName" Param1="WaitTime" Data="ZI4L1L4L2K88T9ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param1>
+						<ReturnValue Param0="9" />
+					</Child>
+					<Child Name="WaitProperty" Doc="Delays the script execution until the specified property equals the specified value or until the specified time limit elapses." IsBasic="True" Param0="PropertyName" Param1="PropertyValue" Param2="WaitTime" Data="ZI4L1L4L3KBUBZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param2>
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4S6U3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="wState" Doc="Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed." IsBasic="True" Data="ZI4L2L4S4U3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="wState" Doc="Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed." IsBasic="True" Data="ZI4L4L4L1K48S18ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-619940800" Key="{5091AE39-3899-4B55-BF3C-957083AF5786}">
+			<Data Properties="41832236C707FB45B56063C342D1630BUFFFFFFFFFFFFFFFFV4K11ZZY">
+				<FunctionDescriptions>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="ClickItem" Doc="Selects the item, specified as an index, from 0, or a name." IsBasic="True" Param0="Item" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wItemCount" Doc="Returns the total number of items in the combo box." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="wItem" Doc="Returns the name of the item specified by its index." IsBasic="True" Param0="Index" Data="ZI4L2L4L1ZG8ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="wSelectedItem" Doc="Returns the index of the selected item." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="wText" Doc="Returns the control text." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="DropDown" Doc="Opens the control&apos;s drop-down window." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
 					</Child>
 					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
 						<ReturnValue Param0="11" />

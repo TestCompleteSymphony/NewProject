@@ -18,53 +18,59 @@ function ReadPositionData()
 	  
   //Setting the excel sheet focus to first cell value     
   ExDriver.First();
-  
+  i=0;
   while(!ExDriver.EOF())
   {
+    
     for(var column=1;column<ColumnCount;column++) 
     {
-      i=0;
+     
       switch(aqConvert["VarToStr"](ExDriver["ColumnName"](column)))
       {
         case "Period":
           Period[i] = aqConvert.VarToStr(ExDriver["Value"](column));
-          Log["Message"]("Period: " +Period[i]);
           break;
         case "Commodity Risk Quantity":
           Comm_RiskQty[i] = aqConvert.VarToStr(ExDriver["Value"](column));
-          Log["Message"]("Commodity Risk Quantity : " +Comm_RiskQty[i]);
           break;  
         case "Commodity UOM":
           Comm_UOM[i] = aqConvert.VarToStr(ExDriver["Value"](column));
-          Log["Message"]("Commodity UOM: " +Comm_UOM[i]);
           break;
         case "Risk Quantity":
           GT_RiskQty[i] = aqConvert.VarToStr(ExDriver["Value"](column));
-          Log["Message"]("Risk Quantity : " +GT_RiskQty[i]);
           break;  
         case "UOM":
           GT_UOM[i] = aqConvert.VarToStr(ExDriver["Value"](column));
-          Log["Message"]("UOM: " +GT_UOM[i]);
           break;
         default:
          break;          
       }
-      i++;
+      
     }
 
     ExDriver["Next"]()
+    i++;
   }
 }
 
 function ValidatePositions()
 {
-  var result;
+  var items = [[],[]];
+  for (var x=0;x<2;x++)
+  {
+    for(var l=0;l<4;l++)
+    {
+      if(l==0){ items[x][l]=Comm_RiskQty[x]; }
+      else if(l==1){ items[x][l]=Comm_UOM[x]; }
+      else if(l==2){ items[x][l]=GT_RiskQty[x]; }
+      else if(l==3){ items[x][l]=GT_UOM[x]; }
+    }
+  }
   
-  //var items = [[Comm_RiskQty[0],Comm_UOM[0],GT_RiskQty[0],GT_UOM[0]],[Comm_RiskQty[1],Comm_UOM[1],GT_RiskQty[1],GT_UOM[1]];
-  var items = [];
+  var PortfolioSplitterCntl = Aliases["RiskManager"]["RiskManagerForm"]["horizontalPortfolioSplitterControl"]
+  var PositionPivotGridPanel = PortfolioSplitterCntl["SplitGroupPanel2"]["inspectablePivotGrid1"]["scPivotAndLower"]["SplitGroupPanel"]["panelControlForPositionPivotGrid"]
+  var PositionGrid = PositionPivotGridPanel["scTabAndSelector"]["SplitterPanel"]["xtraTabControl1"]["TabPageWithUomPivot"]["pgcPositions"]
   
-  
-  var PositionGrid = Aliases["RiskManager"]["RiskManagerForm"]["horizontalPortfolioSplitterControl"]["SplitGroupPanel2"]["inspectablePivotGrid1"]["scPivotAndLower"]["SplitGroupPanel"]["panelControlForPositionPivotGrid"]["scTabAndSelector"]["SplitterPanel"]["xtraTabControl1"]["TabPageWithUomPivot"]["pgcPositions"]
 
   var RCount = PositionGrid["Cells"]["RowCount"]
   var ColCount = PositionGrid["Cells"]["ColumnCount"]
@@ -73,25 +79,13 @@ function ValidatePositions()
   {
     for(var col = 0; col < ColCount; col++)
     {
-      item = getPGcellInfo(PositionGrid,col,row)
-      Log["Message"](item[0] +","+item[1]+","+item[2])
-      if (item[0] == "Risk Quantity" && item[1] == Period[0])
+      if(getPGcellInfo(PositionGrid,col,row)==items[row][col])
       {
-        if(item[2]== Comm_RiskQty[0])
-        {
-          result = true;
-        }
-        else
-        { result = false;}
+        Log.Picture(PositionGrid,"Position is as expected ");
       }
-      if (item[0] == "Risk Quantity" && item[1] == null)
+      else
       {
-        if(item[2]== Comm_RiskQty[0])
-        {
-          result = true;
-        }
-        else
-        { result = false;}
+        Log.Error("Position incorrect",pmHighest);
       }
     }
   }
@@ -121,11 +115,14 @@ function getPGcellInfo(PositionGrid,x,y)
   colHeading=PositionGrid["Cells"]["GetFocusedCellInfo"]()["DataField"]["Caption"];
   rowHeading=PositionGrid["Cells"]["GetFocusedCellInfo"]()["Data"]["GetRowValue"](rowIndex);
   cellDisplay=PositionGrid["Cells"]["GetCellInfo"](x, y)["DisplayText"];
-  Log.Message(colHeading + "/" + rowHeading + ": (" + x + ", " + y + "): " + ", displayed as: " + cellDisplay);
-  var item = [];
-  item[0] = colHeading;
-  item[1] = rowHeading;
-  item[2] = aqString.Trim(cellDisplay,3);
-//  return aqString.Trim(cellDisplay,3);
-return item;
+  Log.Message(colHeading + "/" + rowHeading + ": (" + x + ", " + y + "): " + " displayed as: " + cellDisplay);
+  
+  return aqString.Trim(cellDisplay,3);
+
+}
+
+function main()
+{
+  ReadPositionData();
+  ValidatePositions()
 }
